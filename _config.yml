@@ -3,26 +3,26 @@ theme: jekyll-theme-slate
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://xdhaut.xyz
 date_format: "ordinal"
-title: 码志
+title: XDer
 subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+description: "Xder的个人博客"
+keywords: Xder, XDer, xdhaut, 张建建
 favicon: /favicon.ico
-timezone: Asia/Shanghai
+timezone: Asia/Xi’an
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Jian zhang
+organization: Xd U
+organization_url: http://www.xidian.edu.cn
+github_username: Xdhauter
+location: Xi'an, China
+email: hautangzh@163.com
 
 # ---------------- #
 #    Navigation    #
@@ -79,33 +79,9 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: xdhauter/xdhauter.github.io
 
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: mzlogin
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+
 
 # ---------------- #
 #    Analytics     #
